@@ -12,13 +12,20 @@ return require('packer').startup(function(use)
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
-use ({
-	'rose-pine/neovim',
-	as = 'rose-pine',
-	config = function()
-		vim.cmd('colorscheme rose-pine-moon')
-	end
-})
+
+-- Themes
+-- Rose pine
+--use ({
+--	'rose-pine/neovim',
+--	as = 'rose-pine',
+--	config = function()
+--		vim.cmd('colorscheme rose-pine-moon')
+--	end
+--})
+
+--catppuccin
+
+use { "catppuccin/nvim", as = "catppuccin" }
 
 use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 use( 'nvim-treesitter/playground')
