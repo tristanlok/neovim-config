@@ -41,6 +41,15 @@ use {
     "neovim/nvim-lspconfig"
 }
 
+--lua line
+
+use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+}
+
+
+
 use {
 	'VonHeikemen/lsp-zero.nvim',
 	branch = 'v3.x',
