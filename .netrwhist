@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/tristanlok/.local/share/nvim'
+let g:netrw_dirhist_1='/home/tristanlok/.local/share'
+let g:netrw_dirhist_0='/home/tristanlok/.local'
+let g:netrw_dirhist_9='/home/tristanlok'
+let g:netrw_dirhist_8='/home/tristanlok/Github'
+let g:netrw_dirhist_7='/home/tristanlok/Github/RISC-V-Processor'
+let g:netrw_dirhist_6='/home/tristanlok/.config/nvim/plugin'
+let g:netrw_dirhist_5='/home/tristanlok/.config/nvim'
+let g:netrw_dirhist_4='/home/tristanlok/.config'
+let g:netrw_dirhist_3='/home/tristanlok/.config/nvim'

@@ -48,8 +48,6 @@ use {
   requires = { 'nvim-tree/nvim-web-devicons', opt = true }
 }
 
-
-
 use {
 	'VonHeikemen/lsp-zero.nvim',
 	branch = 'v3.x',
